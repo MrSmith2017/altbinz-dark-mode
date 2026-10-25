@@ -8,7 +8,7 @@ A [Windhawk](https://windhawk.net) mod that turns the light blue skin of [Alt.Bi
 
 Alt.Binz draws its whole user interface from a light blue skin (it is a Delphi program with a BusinessSkinForm skin), so it ignores the Windows dark mode. This mod re-colors everything the program draws with GDI: brushes, pens, text colors, system colors and the skin bitmaps. It also switches the standard Windows controls (scroll bars, the Open file dialog, shell menus) to their own dark look.
 
-Only `altbinz.exe` is affected. No skin files are changed, and disabling the mod brings the original look back.
+Only `altbinz.exe` is affected. No skin files are changed. Disabling the mod brings the original look back; restart Alt.Binz afterwards to get it completely.
 
 ## Install
 
@@ -29,8 +29,8 @@ All colors are hex codes, for example `2F5A96` or `#2F5A96`. A value that cannot
 | Gradient | Use a gradient, start / end color, balance, angle | off, `2F5A96` / `152238`, 50, 90 | live |
 | Progress bars | Color, gradient color, direction (top to bottom or left to right) | empty (blue) | live |
 | Appearance | Background lightness, text lightness, saturation | 11 / 92 / 85 | restart Alt.Binz |
-| Appearance | Text color, list background color | empty | restart Alt.Binz |
-| Appearance | Column header color | empty (blue) | restart Alt.Binz |
+| Appearance | Text color (the text lightness is ignored when it is set), list background color | empty | restart Alt.Binz |
+| Appearance | Column header color | empty (blue) | live |
 | Appearance | Keep the tree in Setup dark gray | off | live |
 
 Bright surface colors are darkened automatically so that the light text stays readable.
