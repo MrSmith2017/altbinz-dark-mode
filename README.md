@@ -32,7 +32,8 @@ All colors are hex codes, for example `2F5A96` or `#2F5A96`. A value that cannot
 | Appearance | List background color | empty | restart Alt.Binz |
 | Appearance | Column header color | empty (blue) | live |
 | Appearance | Text color (interface; the text lightness is ignored when it is set) | empty | live |
-| Appearance | List text color (download queue and log), column text color (column headers) | empty (text color) | live |
+| Appearance | List text color (download queue and log) | empty (text color) | live |
+| Appearance | Column text color (text of the column headers) | empty (text color) | live |
 | Appearance | Title bar color (Windows 11) | `000000` | live |
 | Appearance | Keep the tree in Setup dark gray | off | live |
 
