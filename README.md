@@ -43,6 +43,10 @@ Bright surface colors are darkened automatically so that the light text stays re
 
 Tested with Alt.Binz 0.48.4 (32-bit) on Windows 11 (build 26100). Other versions may work but have not been tested. Skins other than the default blue one are not supported.
 
+## Disclaimer
+
+This project is an unofficial, community-made modification for windhawk and is not affiliated with, endorsed by, or sponsored by the developers of Alt.Binz. All product names, logos, and trademarks shown in screenshots or code belong entirely to their respective owners.
+
 ## License
 
 [MIT](LICENSE)
