@@ -29,8 +29,11 @@ All colors are hex codes, for example `2F5A96` or `#2F5A96`. A value that cannot
 | Gradient | Use a gradient, start / end color, balance, angle | off, `2F5A96` / `152238`, 50, 90 | live |
 | Progress bars | Color, gradient color, direction (top to bottom or left to right) | empty (blue) | live |
 | Appearance | Background lightness, text lightness, saturation | 11 / 92 / 85 | restart Alt.Binz |
-| Appearance | Text color (the text lightness is ignored when it is set), list background color | empty | restart Alt.Binz |
+| Appearance | List background color | empty | restart Alt.Binz |
 | Appearance | Column header color | empty (blue) | live |
+| Appearance | Text color (interface; the text lightness is ignored when it is set) | empty | live |
+| Appearance | List text color (download queue and log), column text color (column headers) | empty (text color) | live |
+| Appearance | Title bar color (Windows 11) | `000000` | live |
 | Appearance | Keep the tree in Setup dark gray | off | live |
 
 Bright surface colors are darkened automatically so that the light text stays readable.
